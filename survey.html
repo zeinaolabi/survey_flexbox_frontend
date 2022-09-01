@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>
+            FollowUp Survey
+        </title>
+
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+
+    <body>
+        <div class="main_container">
+            <header><h1>Follow Up Survey</h1></header>
+
+            <form>
+                <ul class="flex">
+                    <li>
+                        <p>When did you use our service?</p>
+                        <input type ="date" name="Date"><br/>
+                        <span class="date">Date</span>
+                    </li>
+
+                    <li>
+                        <p>Name of product or service</p>
+                        <input type ="text" name="product">
+                    </li>                  
+                </ul>
+
+                <div class="question">
+                    <p>Overall, how satisfied are you with our services?</p>
+    
+                    <ul class="flex">
+                        <li><label><input type="radio" name="satisfaction" value="vSatisfied"><span>Very Satisfied</span></label></li>
+                        <li><label><input type="radio" name="satisfaction" value="satisfied"><span>Satisfied</span></label></li>
+                        <li><label><input type="radio" name="satisfaction" value="neutral"><span>Neutral</span></label></li>
+                        <li><label><input type="radio" name="satisfaction" value="unsatisfied"><span>Unsatisfied</span></label></li>    
+                        <li><label><input type="radio" name="satisfaction" value="vUnsatisfied"><span>Very Unsatisfied</span></label></li>
+                        <li><label><input type="radio" name="satisfaction" value="na"><span>N/A</span></label></td></li>
+                    </ul>
+                </div>
+
+                <div class="question">
+                    <p>Did our product or service meet your expectations?</p>
+    
+                    <ul class="flex">
+                        <li><label><input type="radio" name="expectations" value="yes"><span>Yes</span></label></li>
+                        <li><label><input type="radio" name="expectations" value="no"><span>No</span></label></li>
+                    </ul>
+                </div>
+
+                <div class="question">
+                    <p>Would you recommend this product or service for a friend?</p>
+    
+                    <ul class="flex">
+                        <li><label><input type="radio" name="recommendations" value="yes"><span>Yes</span></label></li>
+                        <li><label><input type="radio" name="recommendations" value="no"><span>No</span></label></li>
+                    </ul>
+                </div>
+
+                <div class="question">
+                    <p>What aspect of the product or service were you most satisfied with?</p>
+    
+                    <ul class="flex">
+                        <li><label><input type="radio" name="mostSatisfied" value="quality"><span>Quality</span></label></li>
+                        <li><label><input type="radio" name="mostSatisfied" value="price"><span>Price</span></label></li>
+                        <li><label><input type="radio" name="mostSatisfied" value="customerService"><span>Customer Service</span></label></li>
+                        <li><label><input type="radio" name="mostSatisfied" value="installation"><span>Installation or first use experience</span></label></li>
+                    </ul>
+                </div>
+
+                <div class="question">
+                    <p>What aspect of the product or service were you most least with?</p>
+    
+                    <ul class="flex">
+                        <li><label><input type="radio" name="leastSatisfied" value="quality"><span>Quality</span></label></li>
+                        <li><label><input type="radio" name="leastSatisfied" value="price"><span>Price</span></label></li>
+                        <li><label><input type="radio" name="leastSatisfied" value="customerService"><span>Customer Service</span></label></li>
+                        <li><label><input type="radio" name="leastSatisfied" value="installation"><span>Installation or first use experience</span></label></li>
+                    </ul>
+                </div>
+
+                <div class="question">
+                    <p>Additional comments:</p>
+    
+                    <div class="flex">
+                        <textarea rows="10" cols="65" placeholder="Type here..."></textarea>
+                    </div>
+                </div>
+
+                <div class="buttonPlaceholder">
+                    <input type="submit" value="Submit">
+                </div>
+                
+            </form>
+        </div>
+    </body>
+</html>
