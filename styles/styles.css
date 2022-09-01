@@ -2,7 +2,6 @@ body{
     background-color: gray;
     display: flex;
     justify-content: center;
-    height: 1200px;
 }
 
 .main_container{
@@ -11,7 +10,7 @@ body{
     align-content: center;
     background-color: lightgray;
     width: 650px;
-    height: 1200px; 
+    height: fit-content;
 }
 
 header{
